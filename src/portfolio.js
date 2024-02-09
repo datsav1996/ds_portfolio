@@ -242,7 +242,7 @@ const achievementSection = {
       title: "The Complete Node.js Developer Course",
       subtitle:
         "Taught by Andrew Mead, Rob Percival on Udemy.",
-      image: require("./assets/images/nodejs_udemy.jpg"),
+      image: require("./assets/images/nodejslogo.png"),
       imageAlt: "node js certificate",
       footerLink: [
         {
@@ -260,29 +260,88 @@ const achievementSection = {
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Angular - The Complete Guide",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Taught by Maximilian Schwarzmüller on Udemy.",
+      image: require("./assets/images/angularlogo.png"),
+      imageAlt: "angular logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://www.udemy.com/certificate/UC-fea4275c-9462-4d73-bc61-a1bd45c72a5c/"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "ChatGPT - The Complete Guide to ChatGPT & OpenAI APIs",
+      subtitle: "Taught by Academind by Maximilian Schwarzmüller, Manuel Lorenz on Udemy.",
+      image: require("./assets/images/chatgptlogo.png"),
+      imageAlt: "chatgpt Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Certification",
+          url: "https://cognizant.udemy.com/certificate/UC-6f7fd4ba-bc9e-4e90-8a90-45e22d8ab055/"
+        }
+      ]
+    },
+    {
+      title: "Microsoft Certified Azure Fundamentals",
+      subtitle: "The AZ-900 certifies foundational Azure cloud service knowledge.",
+      image: require("./assets/images/az900.png"),
+      imageAlt: "az900 Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.credly.com/badges/0d843269-750a-4e42-85e5-efe0a56b4c7a/linked_in"
+        }
+      ]
+    },
+    {
+      title: "Microsoft Certified Azure Developer Associate",
+      subtitle: "The AZ-204 certificate validates skills in developing Azure-based solutions.",
+      image: require("./assets/images/az204.png"),
+      imageAlt: "az204 Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.credly.com/badges/9f7d4714-22ab-42b8-be08-fef3de325367/linked_in"
+        }
+      ]
+    },
+    {
+      title: "Microsoft Certified DevOps Engineer Expert",
+      subtitle: "The AZ-400 certificate focuses on DevOps engineering skills.",
+      image: require("./assets/images/az400.png"),
+      imageAlt: "az400 Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.credly.com/badges/db56399b-032c-4381-a343-3f11ad249e99/linked_in"
+        }
+      ]
+    },
+    {
+      title: "Microsoft Certified Azure Data Scientist Associate",
+      subtitle: "DP-100 certificate validates skills in designing and implementing data science solutions.",
+      image: require("./assets/images/dp100.png"),
+      imageAlt: "dp100 Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.credly.com/badges/1d5ffd7f-6ec4-474c-b909-6a17590d94ea"
+        }
+      ]
+    },
+    {
+      title: "Azure Serverless Functions and Logic Apps",
+      subtitle: "Azure Serverless Functions and Logic Apps course taught by Scott Duffy on Udemy. ",
+      image: require("./assets/images/logicapps.png"),
+      imageAlt: "logicapp Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.udemy.com/certificate/UC-0ec0a396-b43d-49ad-9ed4-bbefc7ca17ae/"
         }
       ]
     }
