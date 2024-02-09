@@ -299,16 +299,22 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://medium.com/@datsav1996/complete-node-js-setup-guide-on-mac-and-windows-e74f2779456a",
+      title: "Complete Node.Js Setup Guide on Mac and Windows",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Welcome to the ultimate guide for setting up Node.js on your computer, regardless of whether you’re using a Mac or a Windows machine."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://medium.com/@datsav1996/unraveling-the-art-of-full-stack-javascript-development-5798de46b930",
+      title: "Unraveling the Art of Full Stack JavaScript Development",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Full Stack JavaScript Development has emerged as a beacon for developers looking to master both the frontend and backend of web applications."
+    },
+    {
+      url: "https://medium.com/@datsav1996/science-vs-spirituality-navigating-the-pathways-of-understanding-ba8f54363e2b",
+      title: "Science vs. Spirituality: Navigating the Pathways of Understanding",
+      description:
+        "In the quest for understanding the mysteries of our existence and the universe, two paths have been eternally juxtaposed, often seen as mutually exclusive: science and spirituality."
     }
   ],
   display: true // Set false to hide this section, defaults to true
