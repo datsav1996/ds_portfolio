@@ -181,7 +181,7 @@ const workExperiences = {
     {
       role: "Software Engineer Intern",
       company: "Emtarang TechLabs Pvt. Ltd.",
-      companylogo: require("./assets/images/logituit.jpg"),
+      companylogo: require("./assets/images/logituit_logo.jpg"),
       date: "May 2018 – Nov 2018",
       desc: "The application was developed using Agile methodology with Angular 6 for front-end design, incorporating iterative development, weekly sprints, and REST API integration with NodeJS and ExpressJS for backend, leveraging MongoDB for data storage. It employed Jasmine, Karma, and Mocha for testing, and was deployed on the Heroku cloud platform."
     }
