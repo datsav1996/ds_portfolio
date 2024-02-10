@@ -48,14 +48,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY FULL STACK JAVASCRIPT DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Azure/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Azure/ AWS"
     )
   ],
 
@@ -84,16 +84,24 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
+      skillName: "angular",
+      fontAwesomeClassname: "fab fa-angular"
+    },
+    {
+      skillName: "vue",
+      fontAwesomeClassname: "fab fa-vuejs"
+    },
+    {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
+    },
+    {
+      skillName: "mongodb",
+      fontAwesomeClassname: "fab fa-mdb"
     },
     {
       skillName: "sql-database",
@@ -104,16 +112,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "azure",
+      fontAwesomeClassname: "fab fa-microsoft"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "chatgpt",
+      fontAwesomeClassname: "fas fa-robot"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -382,17 +386,73 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+  title: "PASSION",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "HERE'S A LIST THAT ENCOMPASSES SOME OF THE COMMON PASSIONS AND INTERESTS OF MINE 😅"
   ),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Learning New JavaScript Frameworks",
+      subtitle: "Staying up-to-date with the latest frameworks and libraries like React, Angular, Vue.js for the front end, and Node.js for the back end.",
+      // slides_url: "https://bit.ly/saadpasta-slides",
+      // event_url: "https://www.facebook.com/events/2339906106275053/"
+    },
+    {
+      title: "Exploring UI/UX Design",
+      subtitle: "Passion for creating engaging user interfaces and experiences, and a keen interest in responsive design principles and accessibility standards."
+    },
+    {
+      title: "API Design and Development",
+      subtitle: "Enjoy building RESTful services and APIs, and working with GraphQL for more efficient data retrieval."
+    },
+    {
+      title: "Database Management",
+      subtitle: "Interest in both SQL (e.g., PostgreSQL, MySQL) and NoSQL (e.g., MongoDB, CouchDB) databases, understanding their strengths and how to integrate them into applications."
+    },
+    {
+      title: "DevOps and Deployment",
+      subtitle: "Fascination with containerization tools like Docker, Kubernetes, and cloud services (AWS, Azure, Google Cloud) to deploy, manage, and scale applications."
+    },
+    {
+      title: "Continuous Integration/Continuous Deployment (CI/CD)",
+      subtitle: "Implementing automated testing and deployment pipelines to ensure code quality and streamline the development process."
+    },
+    {
+      title: "Version Control",
+      subtitle: "Mastery of Git for version control, understanding branching strategies, and appreciating the importance of clear commit messages and collaboration through pull requests."
+    },
+    {
+      title: "Security Best Practices",
+      subtitle: "Keeping up with the latest security trends and best practices to ensure the application is secure against common vulnerabilities (e.g., XSS, CSRF)."
+    },
+    {
+      title: "Performance Optimization",
+      subtitle: "Passion for analyzing and optimizing application performance, both on the client and server sides, to enhance user experience."
+    },
+    {
+      title: "Cross-Platform Development",
+      subtitle: "Interest in technologies like React Native or Electron for developing cross-platform mobile and desktop applications."
+    },
+    {
+      title: "Community Engagement",
+      subtitle: "Participating in coding communities, contributing to open-source projects, and staying connected with other developers through meetups, forums, and social media."
+    },
+    {
+      title: "Soft Skills Development",
+      subtitle: "Recognizing the importance of communication, teamwork, problem-solving, and adaptability in a collaborative development environment."
+    },
+    {
+      title: "Innovative Technologies",
+      subtitle: "Curiosity about emerging technologies such as WebAssembly, Serverless architectures, and Internet of Things (IoT) integrations."
+    },
+    {
+      title: "Data Visualization",
+      subtitle: "Utilizing libraries like D3.js to present data in visually appealing and interactive formats."
+    },
+    {
+      title: "Agile and Scrum Methodologies",
+      subtitle: "Embracing Agile development practices and Scrum methodologies to improve team collaboration and project management."
     }
   ],
   display: true // Set false to hide this section, defaults to true
