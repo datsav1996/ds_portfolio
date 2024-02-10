@@ -3,8 +3,9 @@ import "./Podcast.scss";
 import {podcastSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
-import {Player} from "video-react";
+// import {Player} from "video-react";
 import "video-react/dist/video-react.css"; // import css
+import ReactPlayer from "react-player";
 
 export default function Podcast() {
   const {isDark} = useContext(StyleContext);
@@ -31,11 +32,12 @@ export default function Podcast() {
           </p>
         </div>
         <div className="video-container">
-          <Player
-            playsInline
-            poster="/assets/poster.png"
-            src="path_to_your_video.mp4"
-            className="centered-video"
+          <ReactPlayer
+            url="https://youtu.be/Gm52IPCH5Gk?si=hPvkJsp_hL29eYtH" // Example YouTube video URL
+            playing
+            controls
+            width="100%"
+            height="100%"
           />
         </div>
       </div>
