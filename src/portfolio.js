@@ -26,7 +26,7 @@ const greeting = {
     "Welcome to the realm of a Full Stack JavaScript Developer, where expertise in NodeJS, VueJS, Angular, React, MongoDB, and Azure Cloud Services converge to craft digital excellence. Innovation and meticulous testing drive the creation of scalable solutions, powered by a passion for pushing boundaries. Explore a portfolio that embodies the fusion of technology and creativity, promising to elevate your digital experience."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1RgXLyDkTX3_scftGLN7vqV5Ybp3Js3OG/view?usp=drivesdk", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
