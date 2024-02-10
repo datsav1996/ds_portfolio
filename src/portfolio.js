@@ -23,7 +23,8 @@ const greeting = {
   username: "Dattatray Savant",
   title: "Hi all, I'm Dattatray",
   subTitle: emoji(
-    "Welcome to the realm of a Full Stack JavaScript Developer, where expertise in NodeJS, VueJS, Angular, React, MongoDB, and Azure Cloud Services converge to craft digital excellence. Innovation and meticulous testing drive the creation of scalable solutions, powered by a passion for pushing boundaries. Explore a portfolio that embodies the fusion of technology and creativity, promising to elevate your digital experience." ),
+    "Welcome to the realm of a Full Stack JavaScript Developer, where expertise in NodeJS, VueJS, Angular, React, MongoDB, and Azure Cloud Services converge to craft digital excellence. Innovation and meticulous testing drive the creation of scalable solutions, powered by a passion for pushing boundaries. Explore a portfolio that embodies the fusion of technology and creativity, promising to elevate your digital experience."
+  ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -48,15 +49,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK JAVASCRIPT DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "CRAZY FULL STACK JAVASCRIPT DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Azure/ AWS"
-    )
+    emoji("⚡ Integration of third party services such as Azure/ AWS")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -244,8 +244,7 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "The Complete Node.js Developer Course",
-      subtitle:
-        "Taught by Andrew Mead, Rob Percival on Udemy.",
+      subtitle: "Taught by Andrew Mead, Rob Percival on Udemy.",
       image: require("./assets/images/nodejslogo.png"),
       imageAlt: "node js certificate",
       footerLink: [
@@ -265,8 +264,7 @@ const achievementSection = {
     },
     {
       title: "Angular - The Complete Guide",
-      subtitle:
-        "Taught by Maximilian Schwarzmüller on Udemy.",
+      subtitle: "Taught by Maximilian Schwarzmüller on Udemy.",
       image: require("./assets/images/angularlogo.png"),
       imageAlt: "angular logo",
       footerLink: [
@@ -279,7 +277,8 @@ const achievementSection = {
 
     {
       title: "ChatGPT - The Complete Guide to ChatGPT & OpenAI APIs",
-      subtitle: "Taught by Academind by Maximilian Schwarzmüller, Manuel Lorenz on Udemy.",
+      subtitle:
+        "Taught by Academind by Maximilian Schwarzmüller, Manuel Lorenz on Udemy.",
       image: require("./assets/images/chatgptlogo.png"),
       imageAlt: "chatgpt Logo",
       footerLink: [
@@ -291,7 +290,8 @@ const achievementSection = {
     },
     {
       title: "Microsoft Certified Azure Fundamentals",
-      subtitle: "The AZ-900 certifies foundational Azure cloud service knowledge.",
+      subtitle:
+        "The AZ-900 certifies foundational Azure cloud service knowledge.",
       image: require("./assets/images/az900.png"),
       imageAlt: "az900 Logo",
       footerLink: [
@@ -303,7 +303,8 @@ const achievementSection = {
     },
     {
       title: "Microsoft Certified Azure Developer Associate",
-      subtitle: "The AZ-204 certificate validates skills in developing Azure-based solutions.",
+      subtitle:
+        "The AZ-204 certificate validates skills in developing Azure-based solutions.",
       image: require("./assets/images/az204.png"),
       imageAlt: "az204 Logo",
       footerLink: [
@@ -327,7 +328,8 @@ const achievementSection = {
     },
     {
       title: "Microsoft Certified Azure Data Scientist Associate",
-      subtitle: "DP-100 certificate validates skills in designing and implementing data science solutions.",
+      subtitle:
+        "DP-100 certificate validates skills in designing and implementing data science solutions.",
       image: require("./assets/images/dp100.png"),
       imageAlt: "dp100 Logo",
       footerLink: [
@@ -339,7 +341,8 @@ const achievementSection = {
     },
     {
       title: "Azure Serverless Functions and Logic Apps",
-      subtitle: "Azure Serverless Functions and Logic Apps course taught by Scott Duffy on Udemy. ",
+      subtitle:
+        "Azure Serverless Functions and Logic Apps course taught by Scott Duffy on Udemy. ",
       image: require("./assets/images/logicapps.png"),
       imageAlt: "logicapp Logo",
       footerLink: [
@@ -375,7 +378,8 @@ const blogSection = {
     },
     {
       url: "https://medium.com/@datsav1996/science-vs-spirituality-navigating-the-pathways-of-understanding-ba8f54363e2b",
-      title: "Science vs. Spirituality: Navigating the Pathways of Understanding",
+      title:
+        "Science vs. Spirituality: Navigating the Pathways of Understanding",
       description:
         "In the quest for understanding the mysteries of our existence and the universe, two paths have been eternally juxtaposed, often seen as mutually exclusive: science and spirituality."
     }
@@ -394,65 +398,80 @@ const talkSection = {
   talks: [
     {
       title: "Learning New JavaScript Frameworks",
-      subtitle: "Staying up-to-date with the latest frameworks and libraries like React, Angular, Vue.js for the front end, and Node.js for the back end.",
+      subtitle:
+        "Staying up-to-date with the latest frameworks and libraries like React, Angular, Vue.js for the front end, and Node.js for the back end."
       // slides_url: "https://bit.ly/saadpasta-slides",
       // event_url: "https://www.facebook.com/events/2339906106275053/"
     },
     {
       title: "Exploring UI/UX Design",
-      subtitle: "Passion for creating engaging user interfaces and experiences, and a keen interest in responsive design principles and accessibility standards."
+      subtitle:
+        "Passion for creating engaging user interfaces and experiences, and a keen interest in responsive design principles and accessibility standards."
     },
     {
       title: "API Design and Development",
-      subtitle: "Enjoy building RESTful services and APIs, and working with GraphQL for more efficient data retrieval."
+      subtitle:
+        "Enjoy building RESTful services and APIs, and working with GraphQL for more efficient data retrieval."
     },
     {
       title: "Database Management",
-      subtitle: "Interest in both SQL (e.g., PostgreSQL, MySQL) and NoSQL (e.g., MongoDB, CouchDB) databases, understanding their strengths and how to integrate them into applications."
+      subtitle:
+        "Interest in both SQL (e.g., PostgreSQL, MySQL) and NoSQL (e.g., MongoDB, CouchDB) databases, understanding their strengths and how to integrate them into applications."
     },
     {
       title: "DevOps and Deployment",
-      subtitle: "Fascination with containerization tools like Docker, Kubernetes, and cloud services (AWS, Azure, Google Cloud) to deploy, manage, and scale applications."
+      subtitle:
+        "Fascination with containerization tools like Docker, Kubernetes, and cloud services (AWS, Azure, Google Cloud) to deploy, manage, and scale applications."
     },
     {
       title: "Continuous Integration/Continuous Deployment (CI/CD)",
-      subtitle: "Implementing automated testing and deployment pipelines to ensure code quality and streamline the development process."
+      subtitle:
+        "Implementing automated testing and deployment pipelines to ensure code quality and streamline the development process."
     },
     {
       title: "Version Control",
-      subtitle: "Mastery of Git for version control, understanding branching strategies, and appreciating the importance of clear commit messages and collaboration through pull requests."
+      subtitle:
+        "Mastery of Git for version control, understanding branching strategies, and appreciating the importance of clear commit messages and collaboration through pull requests."
     },
     {
       title: "Security Best Practices",
-      subtitle: "Keeping up with the latest security trends and best practices to ensure the application is secure against common vulnerabilities (e.g., XSS, CSRF)."
+      subtitle:
+        "Keeping up with the latest security trends and best practices to ensure the application is secure against common vulnerabilities (e.g., XSS, CSRF)."
     },
     {
       title: "Performance Optimization",
-      subtitle: "Passion for analyzing and optimizing application performance, both on the client and server sides, to enhance user experience."
+      subtitle:
+        "Passion for analyzing and optimizing application performance, both on the client and server sides, to enhance user experience."
     },
     {
       title: "Cross-Platform Development",
-      subtitle: "Interest in technologies like React Native or Electron for developing cross-platform mobile and desktop applications."
+      subtitle:
+        "Interest in technologies like React Native or Electron for developing cross-platform mobile and desktop applications."
     },
     {
       title: "Community Engagement",
-      subtitle: "Participating in coding communities, contributing to open-source projects, and staying connected with other developers through meetups, forums, and social media."
+      subtitle:
+        "Participating in coding communities, contributing to open-source projects, and staying connected with other developers through meetups, forums, and social media."
     },
     {
       title: "Soft Skills Development",
-      subtitle: "Recognizing the importance of communication, teamwork, problem-solving, and adaptability in a collaborative development environment."
+      subtitle:
+        "Recognizing the importance of communication, teamwork, problem-solving, and adaptability in a collaborative development environment."
     },
     {
       title: "Innovative Technologies",
-      subtitle: "Curiosity about emerging technologies such as WebAssembly, Serverless architectures, and Internet of Things (IoT) integrations."
+      subtitle:
+        "Curiosity about emerging technologies such as WebAssembly, Serverless architectures, and Internet of Things (IoT) integrations."
     },
     {
       title: "Data Visualization",
-      subtitle: "Utilizing libraries like D3.js to present data in visually appealing and interactive formats."
+      subtitle:
+        "Utilizing libraries like D3.js to present data in visually appealing and interactive formats."
     },
     {
       title: "Agile and Scrum Methodologies",
-      subtitle: "Embracing Agile development practices and Scrum methodologies to improve team collaboration and project management."
+      subtitle:
+        "Embracing Agile development practices and Scrum methodologies to improve team collaboration and project management."
     }
   ],
   display: true // Set false to hide this section, defaults to true
