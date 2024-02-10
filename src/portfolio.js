@@ -418,61 +418,61 @@ const talkSection = {
       subtitle:
         "Interest in both SQL (e.g., PostgreSQL, MySQL) and NoSQL (e.g., MongoDB, CouchDB) databases, understanding their strengths and how to integrate them into applications."
     },
-    {
-      title: "DevOps and Deployment",
-      subtitle:
-        "Fascination with containerization tools like Docker, Kubernetes, and cloud services (AWS, Azure, Google Cloud) to deploy, manage, and scale applications."
-    },
-    {
-      title: "Continuous Integration/Continuous Deployment (CI/CD)",
-      subtitle:
-        "Implementing automated testing and deployment pipelines to ensure code quality and streamline the development process."
-    },
-    {
-      title: "Version Control",
-      subtitle:
-        "Mastery of Git for version control, understanding branching strategies, and appreciating the importance of clear commit messages and collaboration through pull requests."
-    },
-    {
-      title: "Security Best Practices",
-      subtitle:
-        "Keeping up with the latest security trends and best practices to ensure the application is secure against common vulnerabilities (e.g., XSS, CSRF)."
-    },
-    {
-      title: "Performance Optimization",
-      subtitle:
-        "Passion for analyzing and optimizing application performance, both on the client and server sides, to enhance user experience."
-    },
-    {
-      title: "Cross-Platform Development",
-      subtitle:
-        "Interest in technologies like React Native or Electron for developing cross-platform mobile and desktop applications."
-    },
-    {
-      title: "Community Engagement",
-      subtitle:
-        "Participating in coding communities, contributing to open-source projects, and staying connected with other developers through meetups, forums, and social media."
-    },
-    {
-      title: "Soft Skills Development",
-      subtitle:
-        "Recognizing the importance of communication, teamwork, problem-solving, and adaptability in a collaborative development environment."
-    },
-    {
-      title: "Innovative Technologies",
-      subtitle:
-        "Curiosity about emerging technologies such as WebAssembly, Serverless architectures, and Internet of Things (IoT) integrations."
-    },
-    {
-      title: "Data Visualization",
-      subtitle:
-        "Utilizing libraries like D3.js to present data in visually appealing and interactive formats."
-    },
-    {
-      title: "Agile and Scrum Methodologies",
-      subtitle:
-        "Embracing Agile development practices and Scrum methodologies to improve team collaboration and project management."
-    }
+    // {
+    //   title: "DevOps and Deployment",
+    //   subtitle:
+    //     "Fascination with containerization tools like Docker, Kubernetes, and cloud services (AWS, Azure, Google Cloud) to deploy, manage, and scale applications."
+    // },
+    // {
+    //   title: "Continuous Integration/Continuous Deployment (CI/CD)",
+    //   subtitle:
+    //     "Implementing automated testing and deployment pipelines to ensure code quality and streamline the development process."
+    // },
+    // {
+    //   title: "Version Control",
+    //   subtitle:
+    //     "Mastery of Git for version control, understanding branching strategies, and appreciating the importance of clear commit messages and collaboration through pull requests."
+    // },
+    // {
+    //   title: "Security Best Practices",
+    //   subtitle:
+    //     "Keeping up with the latest security trends and best practices to ensure the application is secure against common vulnerabilities (e.g., XSS, CSRF)."
+    // },
+    // {
+    //   title: "Performance Optimization",
+    //   subtitle:
+    //     "Passion for analyzing and optimizing application performance, both on the client and server sides, to enhance user experience."
+    // },
+    // {
+    //   title: "Cross-Platform Development",
+    //   subtitle:
+    //     "Interest in technologies like React Native or Electron for developing cross-platform mobile and desktop applications."
+    // },
+    // {
+    //   title: "Community Engagement",
+    //   subtitle:
+    //     "Participating in coding communities, contributing to open-source projects, and staying connected with other developers through meetups, forums, and social media."
+    // },
+    // {
+    //   title: "Soft Skills Development",
+    //   subtitle:
+    //     "Recognizing the importance of communication, teamwork, problem-solving, and adaptability in a collaborative development environment."
+    // },
+    // {
+    //   title: "Innovative Technologies",
+    //   subtitle:
+    //     "Curiosity about emerging technologies such as WebAssembly, Serverless architectures, and Internet of Things (IoT) integrations."
+    // },
+    // {
+    //   title: "Data Visualization",
+    //   subtitle:
+    //     "Utilizing libraries like D3.js to present data in visually appealing and interactive formats."
+    // },
+    // {
+    //   title: "Agile and Scrum Methodologies",
+    //   subtitle:
+    //     "Embracing Agile development practices and Scrum methodologies to improve team collaboration and project management."
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
