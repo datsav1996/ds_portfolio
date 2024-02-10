@@ -67,6 +67,20 @@ export default function Contact() {
             )} */}
           </div>
         </div>
+        <div className="mobileview" style={{paddingTop: "10%"}}>
+          <img
+            alt="Man working"
+            src={require("../../assets/images/myimage.jpg")}
+          ></img>
+          {/* {illustration.animated ? (
+              <DisplayLottie animationData={email} />
+            ) : (
+              <img
+                alt="Man working"
+                src={require("../../assets/images/myimage.jpg")}
+              ></img>
+            )} */}
+        </div>
       </div>
     </Fade>
   );

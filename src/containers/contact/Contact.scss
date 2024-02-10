@@ -52,6 +52,9 @@
   margin-top: -2rem;
   border-radius: 60px;
 }
+.mobileview > img {
+  display: none;
+}
 
 /* Media Query */
 @media (max-width: 1380px), (max-width: 768px) {
@@ -84,5 +87,20 @@
 
   .contact-image-div {
     display: none;
+  }
+  .mobileview > img {
+    display: block; /* This line is added to ensure the image displays on mobile */
+    height: 100%; /* Adjusting to fit within .mobileview dimensions */
+    width: auto; /* Maintain aspect ratio */
+    margin: 0 auto; /* Center the image within .mobileview */
+    border-radius: 60px;
+  }
+
+  .mobileview {
+    display: block; /* Ensure .mobileview itself is not hidden */
+    height: 300px;
+    width: 300px;
+    border-radius: 60px;
+    margin: 0 auto; /* Center .mobileview if needed */
   }
 }
