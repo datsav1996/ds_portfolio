@@ -18,7 +18,21 @@
 .subTitle {
   color: $subTitle;
 }
-
+.video-container {
+  display: flex;
+  width: 80%;
+  padding: 20px 20px;
+  margin: 0px auto;
+  margin-top: 2rem;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.custommain {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 4rem;
+}
 @media (max-width: 768px) {
   .podcast-header-title {
     font-size: 30px;
@@ -35,5 +49,13 @@
   }
   .podcast-main-div {
     text-align: center;
+  }
+  .video-container {
+    display: flex;
+    width: 80%;
+    padding: 20px 20px;
+    margin: 0px auto;
+    margin-top: 2rem;
+    padding-top: 40px;
   }
 }

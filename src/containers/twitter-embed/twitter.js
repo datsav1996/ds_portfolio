@@ -1,4 +1,4 @@
-import React, {Suspense, useContext} from "react";
+import React, {useContext} from "react";
 import "./twitter.scss";
 import Loading from "../loading/Loading";
 import {TwitterTimelineEmbed} from "react-twitter-embed";
@@ -28,27 +28,7 @@ export default function Twitter() {
     console.error("Twitter username for twitter section is missing");
   }
   if (twitterDetails.userName) {
-    return (
-      <div></div>
-      // <Suspense fallback={renderLoader()}>
-      //   <div className="tw-main-div" id="twitter">
-      //     <div className="centerContent">
-      //       <TwitterTimelineEmbed
-      //         sourceType="profile"
-      //         screenName={twitterDetails.userName}
-      //         options={{height: 400, width: {widthScreen}}}
-      //         placeholder={renderLoader()}
-      //         autoHeight={false}
-      //         borderColor="#fff"
-      //         key={isDark ? "1" : "2"}
-      //         theme={isDark ? "dark" : "light"}
-      //         noFooter={true}
-      //         onload={timeOut()}
-      //       />
-      //     </div>
-      //   </div>
-      // </Suspense>
-    );
+    return <div></div>;
   } else {
     return null;
   }

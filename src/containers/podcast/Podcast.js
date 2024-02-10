@@ -3,6 +3,8 @@ import "./Podcast.scss";
 import {podcastSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import {Player} from "video-react";
+import "video-react/dist/video-react.css"; // import css
 
 export default function Podcast() {
   const {isDark} = useContext(StyleContext);
@@ -28,25 +30,13 @@ export default function Podcast() {
             {podcastSection.subtitle}
           </p>
         </div>
-        <div className="podcast-main-div">
-          {podcastSection.podcast.map((podcastLink, i) => {
-            if (!podcastLink) {
-              console.log(
-                `Podcast link for ${podcastSection.title} is missing`
-              );
-            }
-            return (
-              <div key={i}>
-                <iframe
-                  className="podcast"
-                  src={podcastLink}
-                  frameBorder="0"
-                  scrolling="no"
-                  title="Podcast"
-                ></iframe>
-              </div>
-            );
-          })}
+        <div className="video-container">
+          <Player
+            playsInline
+            poster="/assets/poster.png"
+            src="path_to_your_video.mp4"
+            className="centered-video"
+          />
         </div>
       </div>
     </Fade>
