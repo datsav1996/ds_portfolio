@@ -480,8 +480,8 @@ const talkSection = {
 // Podcast Section
 
 const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  title: emoji("Motivation 🎙️"),
+  subtitle: "THIS IS MY MOTIVATION AND INSPIRATION",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [

@@ -29,24 +29,25 @@ export default function Twitter() {
   }
   if (twitterDetails.userName) {
     return (
-      <Suspense fallback={renderLoader()}>
-        <div className="tw-main-div" id="twitter">
-          <div className="centerContent">
-            <TwitterTimelineEmbed
-              sourceType="profile"
-              screenName={twitterDetails.userName}
-              options={{height: 400, width: {widthScreen}}}
-              placeholder={renderLoader()}
-              autoHeight={false}
-              borderColor="#fff"
-              key={isDark ? "1" : "2"}
-              theme={isDark ? "dark" : "light"}
-              noFooter={true}
-              onload={timeOut()}
-            />
-          </div>
-        </div>
-      </Suspense>
+      <div></div>
+      // <Suspense fallback={renderLoader()}>
+      //   <div className="tw-main-div" id="twitter">
+      //     <div className="centerContent">
+      //       <TwitterTimelineEmbed
+      //         sourceType="profile"
+      //         screenName={twitterDetails.userName}
+      //         options={{height: 400, width: {widthScreen}}}
+      //         placeholder={renderLoader()}
+      //         autoHeight={false}
+      //         borderColor="#fff"
+      //         key={isDark ? "1" : "2"}
+      //         theme={isDark ? "dark" : "light"}
+      //         noFooter={true}
+      //         onload={timeOut()}
+      //       />
+      //     </div>
+      //   </div>
+      // </Suspense>
     );
   } else {
     return null;
